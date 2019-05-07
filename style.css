@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#title{
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin-bottom: 50PX;
+}
+
+.osp-container{
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.osp{
+  width: 200px;
+  height:150px;
+  margin: 20px;
+  background-color: #cecece;
+  color: red;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
